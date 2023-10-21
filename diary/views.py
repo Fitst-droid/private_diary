@@ -6,7 +6,7 @@ from django.views import generic
 
 from.forms import InquiryForm
 
-from django.contrid import messages
+from django.contrib import messages
 
 logger = logging.getLogger(__name__)
 
