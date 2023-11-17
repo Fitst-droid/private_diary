@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'allauth',
     'allauth.account',
     'django_bootstrap5',
+    'django_ses',
 ]
 
 MIDDLEWARE = [
@@ -224,6 +225,9 @@ DEFAULT_FROM_EMAIL = os.environ.get('FROM_EMAIL')
 
 MEDIA_URL = '/media/'
 
+# バックアップパッチ用
+BACKUP_PATH = 'backup/'
+NUM_SAVED_BACKUP = 30
 
 
 
