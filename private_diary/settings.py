@@ -43,7 +43,7 @@ LOGGING = {
   'handlers': {
     'file': {
       'level':'INFO',
-      'class':'loffing.hadlers.TimedRotatingFileHandler',
+      'class':'logging.handlers.TimedRotatingFileHandler',
       'filename':os.path.join(BASE_DIR, 'logs/django.log'),
       'formatter':'prod',
       'when':'D', #ログローテーション(新しいファイルへの切り替え)間隔の単位(D=日)
@@ -52,7 +52,7 @@ LOGGING = {
     },
   },
   
-#   フォーマットの設定
+#   フォーマッタの設定
   'formatters': {
     'prod':{
       'format': '\t'.join([
