@@ -42,7 +42,9 @@
               <a class="nav-link {% block active_inquiry %}{% endblock %}"
                  href="{% url 'diary:inquiry' %}">INQUIRY</a>
             </li>
+          </ul>
 
+          <ul>
             {% if user.is_authenticated %}
             <li class="nav-item">
               <a class="nav-link {% block active_diary_list %}{% endblock %}"
