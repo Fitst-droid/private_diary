@@ -1,0 +1,4 @@
+id,user,title,content,photo1,photo2,photo3,created_at,updated_at
+admin,日記2,日記2,unknown_cat_wkAObf8.jpg,,,2024-03-31 00:33:31.230799+00:00,2024-03-31 00:33:31.230799+00:00
+admin,日記3,日記3,unknown_mnist.png,,,2024-03-31 00:33:48.479457+00:00,2024-03-31 00:33:48.482460+00:00
+admin,日記1,日記1,unknown_cat.jpg,unknown_cifar.jpg,unknown_vgg.jpg,2024-03-31 00:32:09.109918+00:00,2024-03-31 01:03:31.671554+00:00

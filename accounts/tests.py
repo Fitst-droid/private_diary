@@ -8,7 +8,7 @@ class TestLogin(LiveServerTestCase):
   @classmethod
   def setUpClass(cls):
     super().setUpClass()
-    cls.selenium = WebDriver(executable_path="C:\\Users\\miura\\chromedriver-win64\\chromedriver")
+    cls.selenium = WebDriver(executable_path="C:\\Users\\miura\\chromedriver-win64 (1)\\chromedriver-win64\\chromedriver.exe")
 
   @classmethod
   def tearDownClass(cls):

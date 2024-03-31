@@ -84,7 +84,7 @@ class DiaryUpdateView(LoginRequiredMixin, OnlyYouMixin, generic.UpdateView):
   form_class = DiaryCreateForm
 
   def get_success_url(self):
-    return reverse_lazy('diary:diary_datail', kwargs={'pk': self.kwargs['pk']})
+    return reverse_lazy('diary:diary_detail', kwargs={'pk': self.kwargs['pk']})
   
   def form_valid(self, form):
     messages.success(self.request, '日記を更新しました。')
