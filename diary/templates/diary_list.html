@@ -37,10 +37,10 @@
       {% if is_paginated %}
       <ul class="pagination">
         <!-- 前のページへのリンク-->
-        {% if is_pagenated %}
+        {% if page_obj.has_previous %}
         <li class="page-item">
-          <a class="oage-link" href="?page={{ page_obj.previous_page_number }}">
-            <span aria-hidden="true">&laquo;</span>
+          <a class="page-link" href="?page={{ page_obj.previous_page_number }}">
+            <span aria-hidden="true">&laquo</span>
           </a>
         </li>
         {% endif %}
